@@ -1,2 +1,2 @@
 #!/bin/bash
-files=$(ls -lt | grep "^-" | head -n 10)
+grep "^-" | head -n 10
