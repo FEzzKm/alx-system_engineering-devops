@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -v | printenv | compgen -A function
+compgen -v | printenv | less | compgen -A function
